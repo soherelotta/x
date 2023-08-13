@@ -1,0 +1,84 @@
+h2, h3 {
+    text-align: center;
+}
+
+p {
+    margin-top: 3%;
+}
+
+a {
+    color: #1da1f2;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0d8bd8;
+}
+
+body {
+    background-color: #f5f8fa;
+    font-family: Arial, sans-serif;
+}
+
+.TextBoxCustomFocusBorder:focus {
+    outline:solid 2px #1da1f2;
+}
+.TextBoxCustomFocusBorder:hover {
+    outline:solid 2px #1da1f2;
+}
+
+input:focus {
+ background-color:#fff8dc;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+}
+  
+ul li {
+    display: inline-block;
+}
+
+.img {
+    margin-left: 44%;
+    margin-bottom: 3%;
+}
+h1 {
+    text-align: center;
+    color: #f5f8fa;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #1da1f2;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d8bd8;
+}
+
+.tag {
+    margin-left: 3%;
+}

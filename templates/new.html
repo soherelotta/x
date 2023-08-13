@@ -1,0 +1,28 @@
+{% extends "application.html" %}
+{% block content %}
+<header>
+    <h1>geektwitter</h1>
+</header>
+
+<div class="container">
+    <div class="row align-items-end">
+        <div class="col">
+        
+        </div>
+        <div class="col">
+            <h1>新規投稿</h1>
+            <form method="POST">
+                <label for="title">題名</label>
+                <input type="text" name="title">
+                <label for="body">本文</label>
+                <input type="text" name="body">
+                <button type="submit">ツイート</button>
+            </form>    
+        </div>
+        <div class="col">
+        
+        </div>
+    </div>
+</div>
+
+{% endblock %}
